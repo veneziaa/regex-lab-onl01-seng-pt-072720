@@ -48,3 +48,6 @@ def valid_phone_number?(phone)
     false
   end
 end
+valid_number = "(800)IloveNY"
+
+valid_phone_number?(valid_number)
